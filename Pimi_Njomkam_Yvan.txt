@@ -18,17 +18,23 @@ Ctrl + D
 Git init
 Git status
 Git add .
+git status
+
 Git commit -m "first commit"
+
+[main 5bfed84] adding command file
+1 file changed, 38 insertions(+)
+create mode 100644 Pimi_Njomkam_Yvan.txt
+
 
 Repository created : https://github.com/PimiYvan/Git-assignment
 
 Git remote add origin https://github.com/PimiYvan/Git-assignment.git
 Git branch -M main
 Git push -u origin master
-Ls -a
+git remote
 
 ssh-keygen -o
-Or
 
 Cd .ssh
 Cat id_rsa.pub > key.txt
