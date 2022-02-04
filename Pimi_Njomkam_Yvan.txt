@@ -1,0 +1,38 @@
+			Git assignment
+
+mkdir AMMI-git
+cd AMMI-git 
+mkdir Pimi_Njomkam_Yvan
+Cd ../
+Mkdir AMMI-first
+Mv AMMI-first AMMI-git
+
+Cd AMMI-git
+Cat > identity.txt
+Names : PIMI NJOMKAM YVAN
+Country : Cameroon
+Background : Software developer
+Interests : Sport, 
+Ctrl + D
+
+Git init
+Git status
+Git add .
+Git commit -m "first commit"
+
+Repository created : https://github.com/PimiYvan/Git-assignment
+
+Git remote add origin https://github.com/PimiYvan/Git-assignment.git
+Git branch -M main
+Git push -u origin master
+Ls -a
+
+ssh-keygen -o
+Or
+
+Cd .ssh
+Cat id_rsa.pub > key.txt
+Cp key.txt ../Documents
+Then copy the content of key inside settings/ ssh and gpg keys inside GitHub
+
+https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key
