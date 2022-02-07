@@ -1,44 +1,182 @@
-			Git assignment
-
-mkdir AMMI-git
-cd AMMI-git 
-mkdir Pimi_Njomkam_Yvan
-Cd ../
-Mkdir AMMI-first
-Mv AMMI-first AMMI-git
-
-Cd AMMI-git
-Cat > identity.txt
-Names : PIMI NJOMKAM YVAN
-Country : Cameroon
-Background : Software developer
-Interests : Sport, 
-Ctrl + D
-
-Git init
-Git status
-Git add .
-git status
-
-Git commit -m "first commit"
-
-[main 5bfed84] adding command file
-1 file changed, 38 insertions(+)
-create mode 100644 Pimi_Njomkam_Yvan.txt
-
-
-Repository created : https://github.com/PimiYvan/Git-assignment
-
-Git remote add origin https://github.com/PimiYvan/Git-assignment.git
-Git branch -M main
-Git push -u origin master
-git remote
-
-ssh-keygen -o
-
-Cd .ssh
-Cat id_rsa.pub > key.txt
-Cp key.txt ../Documents
-Then copy the content of key inside settings/ ssh and gpg keys inside GitHub
-
-https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key
+    1  python
+    2  git 
+    3  sds
+    4  brew
+    5  brew
+    6  git
+    7  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    8  brew
+    9  brew
+   10  brew install
+   11  brew install git
+   12  ls
+   13  ls -a
+   14  brew
+   15  brew
+   16  echo $0
+   17  nano ~/.zshrc\n\n
+   18  sudo
+   19  sudo nano command.txt
+   20  xcode-select --install\n\n
+   21  less install.sh\n\n
+   22  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   23  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/pimiyvan/.zprofile
+   24  eval "$(/opt/homebrew/bin/brew shellenv)"
+   25  brew help
+   26  brew install git
+   27  git
+   28  git --version
+   29  ls -a
+   30  git port install git
+   31  git
+   32  git --version
+   33  ls
+   34  rm command.txt.save
+   35  mkdir test
+   36  cd test
+   37  touch ammi.txt
+   38  ls
+   39  touch dakar.txt
+   40  touch hello.txt
+   41  ls
+   42  cat hello.txt
+   43  cat > head.txt
+   44  ls
+   45  cd test
+   46  cat head.txt
+   47  cat > heads.txt
+   48  cat > heads.txt
+   49  cat heads.txt
+   50  ls
+   51  rm heads.txt
+   52  ls
+   53  clear
+   54  ls
+   55  ls
+   56  pwd
+   57  cd test
+   58  ls
+   59  mkdir other
+   60  ls
+   61  mv hello.txt other
+   62  ls
+   63  ls other
+   64  rw
+   65  ls
+   66  find head
+   67  find head.txt
+   68  cd ..
+   69  ls
+   70  find head.txt
+   71  find -r head.txt
+   72  find -R head.txt
+   73  cd test
+   74  history
+   75  history > all_command.txt
+   76  cat all_command.txt
+   77  haed -10 all_command.txt
+   78  head -10 all_command.txt
+   79  git config --global user.name "PimiYvan"
+   80  git config --global user.email "ynjomkam@gmail.com"
+   81  cd ..
+   82  ls
+   83  cd Program
+   84  ls
+   85  code .
+   86  mkdir Homework
+   87  cd Homework
+   88  ls
+   89  git init .
+   90  git init
+   91  ls
+   92  git add .
+   93  git commit -m "first commit"
+   94  git remote add origin https://github.com/PimiYvan/ammi.git
+   95  git push\ngit push
+   96  git push -u origin main
+   97  git branch -M main
+   98  git push -u origin main
+   99  git pull -rebase
+  100  ls
+  101  cd ..
+  102  ls
+  103  mkdir AMMI-git
+  104  cd AMMI-git
+  105  cd ..
+  106  mkdir AMMI-first
+  107  cd AMMI-git
+  108  mkdir Pimi_Njomkam_Yvan
+  109  mv ../AMMI-first .
+  110  ls
+  111  ls
+  112  ls
+  113  touch identity.txt
+  114  ls
+  115  nano identity.txt
+  116  cat identity.txt
+  117  nano identity.txt
+  118  git init
+  119  ls
+  120  ls -a 
+  121  git status
+  122  git add .
+  123  git status
+  124  git commit -m "first commit "
+  125  git push
+  126  git remote add origin https://github.com/PimiYvan/Git-assignment.git
+  127  git branch -M main
+  128  git push -u origin main
+  129  git push 
+  130  git push -u origin main
+  131  nano identity.txt
+  132  git add .
+  133  git commit -m "file change"
+  134  git push
+  135  ls
+  136  touch pass.txt
+  137  nano pass.txt
+  138  history > hist.txt
+  139  cat hist.txt
+  140  ls
+  141  history > Desktop/hist.txt
+  142  ls
+  143  ls -a
+  144  cd .ssh
+  145  mkdir .ssh
+  146  ls
+  147  cd .ssh
+  148  ls
+  149  cd ..
+  150  rm .ssh
+  151  rm -rf .ssh
+  152  ls
+  153  ls -a
+  154  ssh-keygen -o
+  155  ls
+  156  cd .ssh
+  157  cat id_rsa.pub > key.txt
+  158  cp key.txt ../Documents
+  159  history
+  160  /opt/anaconda3/bin/jupyter_mac.command ; exit;
+  161  ls
+  162  ls
+  163  ls Program
+  164  ls Program/AMMI-git
+  165  ls
+  166  ls ./Desktop
+  167  sudo ls Desktop
+  168  cp Desktop/Pimi_Njomkam_Yvan.txt Program/AMMI-git
+  169  cd Program/AMMI-git
+  170  ls
+  171  git add .
+  172  git commit -m "adding command file"
+  173  git push
+  174  git repo
+  175  git remote
+  176  ls
+  177  history 
+  178  history 1000
+  179  history -1000
+  180  ls ..
+  181  cp Pimi_Njomkam_Yvan.txt ..
+  182  ls ..
